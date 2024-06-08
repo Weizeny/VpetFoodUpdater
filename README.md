@@ -20,7 +20,7 @@ I will explain “How to do” and “What to do” below.
 	(1) Enter the Price Multiplier value. Official suggest is from 0.7 to 1. So the Price will set become: (OfficailDefinePrice+10)x PriceMultiplier  
 If the PriceMultiplier is below 0.7, then the Food Price will become OP/overload/overpower/too low.  
   
-	(2) Enter the Minimum Price value. Then the Price come to the output will always greater than Minimum Price, but also Price> BottomPrice /MinPrice>0.  
+	(2) Enter the Minimum Price value. Then the Price come to the output will always greater than Minimum Price, but also Price> BottomPrice > MinPrice>0.  
 Food Price =   
 (((Exp / 3 + Strength / 5 + StrengthFood / 2 + StrengthDrink / 2 + Feeling / 5) / 3)-10) x PriceMultiplier + BottomPrice  
   
