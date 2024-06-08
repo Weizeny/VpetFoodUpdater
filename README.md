@@ -28,14 +28,14 @@ Food Price =
 		Enter【11】 to add both functions. (All option: 【00】, 【01】,【11】,【10】).
 	Random Number is create by rolling two twenty sided dice (2D20). Rolling consequence as below:
  
-Roll2     -> BottomPrice x 55
-3 ~ 4     -> BottomPrice x 35
-5 ~ 9     -> BottomPrice x 6
-10 ~ 15   -> BottomPrice x 1.4
-16 ~ 26   -> BottomPrice x 1
-27 ~ 32   -> BottomPrice x 0.9
-33 ~ 36   -> BottomPrice x 0.7
-37 ~ 39   -> BottomPrice x 0.3
+Roll2     -> BottomPrice x 55 ||
+3 ~ 4     -> BottomPrice x 35 ||
+5 ~ 9     -> BottomPrice x 6 ||
+10 ~ 15   -> BottomPrice x 1.4 ||
+16 ~ 26   -> BottomPrice x 1 ||
+27 ~ 32   -> BottomPrice x 0.9 ||
+33 ~ 36   -> BottomPrice x 0.7 ||
+37 ~ 39   -> BottomPrice x 0.3 ||
 Roll40    -> BottomPrice x 0.1
 
 Food Price = 
