@@ -24,10 +24,10 @@ If the PriceMultiplier is below 0.7, then the Food Price will become OP/overload
 Food Price =   
 (((Exp / 3 + Strength / 5 + StrengthFood / 2 + StrengthDrink / 2 + Feeling / 5) / 3)-10) x PriceMultiplier + BottomPrice  
   
-	(3)Whether you want to modify the Food which is OP/overload/overpower/too low.(Only when Food Price > 0) !  
+	(3)Whether you want to modify the Food which is OP/overload/overpower/too low.(Only when Original Food Price > 0) !  
 		Enter 【No】 to modify the OP Food.  
   
-	(4) Whether you want to add a Random Number into BottomPrice & Whether you want to modify while FoodPrice < 0.  
+	(4) Whether you want to add a Random Number into BottomPrice & Whether you want to modify while Original FoodPrice < 0.  
 		Enter【11】 to add both functions. (All option: 【00】, 【01】,【11】,【10】).  
 	Random Number is create by rolling two twenty sided dice (2D20). Rolling consequence as below:  
    
