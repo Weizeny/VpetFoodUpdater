@@ -7,40 +7,8 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "FoodPriceCompile/1.0.0": {
-        "dependencies": {
-          "LinePutScript": "1.11.6",
-          "LinePutScript.Localization.WPF": "1.0.7",
-          "Parse": "3.0.2"
-        },
         "runtime": {
           "FoodPriceCompile.dll": {}
-        }
-      },
-      "LinePutScript/1.11.6": {
-        "runtime": {
-          "lib/net8.0/LinePutScript.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "LinePutScript.Localization.WPF/1.0.7": {
-        "dependencies": {
-          "LinePutScript": "1.11.6"
-        },
-        "runtime": {
-          "lib/net6.0/LinePutScript.Localization.WPF.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Parse/3.0.2": {
-        "runtime": {
-          "lib/netstandard2.0/Parse.dll": {
-            "assemblyVersion": "3.0.2.0",
-            "fileVersion": "3.0.2.0"
-          }
         }
       }
     }
@@ -50,27 +18,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "LinePutScript/1.11.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2m1AsVxPKKK6Ey/mFt0yEGdrS2LjDX0hKZrKK4LzxNRXePmyWrkiRCUXJK5mSNNZw0OENRAn58jdX9+00jFL+A==",
-      "path": "lineputscript/1.11.6",
-      "hashPath": "lineputscript.1.11.6.nupkg.sha512"
-    },
-    "LinePutScript.Localization.WPF/1.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-n9Hh57jE8pNwzFypx2RUu6hYFMotZ+RDQYvpHwtHojLrFnZ35zJRgTXK3WKtYZHn7Ldm17+Q7NKQnXG1hkSrnQ==",
-      "path": "lineputscript.localization.wpf/1.0.7",
-      "hashPath": "lineputscript.localization.wpf.1.0.7.nupkg.sha512"
-    },
-    "Parse/3.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-LAZ0JjZdkVQ9X6uEihMk+7r827X7HglMgYfwwnOY9hFU/vzpFdnBHRSfYyXThdR/aLrSmhaANZiYPHxou8tNJg==",
-      "path": "parse/3.0.2",
-      "hashPath": "parse.3.0.2.nupkg.sha512"
     }
   }
 }
