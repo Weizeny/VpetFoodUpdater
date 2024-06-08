@@ -350,45 +350,55 @@ namespace FoodFileModifier
                     if (CatchName && CatchPrice)
                     {
 
-                        double RealPrice = (originalExp / 3 + originalStrength / 5 + originalStrengthFood / 3 + originalStrengthDrink / 2 + originalFeeling / 6) / 3
-                            + originalHealth + originalLikability * 10;
                         double newPrice;
                         Random rnd = new Random();
                         // 產生一個隨機數，範圍在 1 到 20 之間
-                        int Dice20 = rnd.Next(1, 41);
+                        int Dice20D1 = rnd.Next(1, 21);
+                        int Dice20D2 = rnd.Next(1, 21);
                         double PriceDice = 1;
-                        if (Dice20 == 1)
+                        if (Dice20D1 + Dice20D2 == 2)
                         {
-                            PriceDice = 15;
+                            PriceDice = 55;
                         }
-                        else if (Dice20 > 1 && Dice20 <= 8)
+                        else if (Dice20D1 + Dice20D2 > 2 && Dice20D1 + Dice20D2 <= 4)
+                        {
+                            PriceDice = 35;
+                        }                        
+                        else if (Dice20D1 + Dice20D2 > 4 && Dice20D1 + Dice20D2 <= 9)
                         {
                             PriceDice = 6;
                         }
-                        else if (Dice20 > 8 && Dice20 <= 12)
+                        else if (Dice20D1 + Dice20D2 > 9 && Dice20D1 + Dice20D2 <= 15)
                         {
                             PriceDice = 1.4;
                         }
-                        else if (Dice20 > 12 && Dice20 <= 25)
+                        else if (Dice20D1 + Dice20D2 > 15 && Dice20D1 + Dice20D2 <= 26)
                         {
                             PriceDice = 1;
                         }
-                        else if (Dice20 > 25 && Dice20 <= 30)
+                        else if (Dice20D1 + Dice20D2 > 26 && Dice20D1 + Dice20D2 <= 32)
                         {
-                            PriceDice = 0.8;
+                            PriceDice = 0.9;
                         }
-                        else if (Dice20 > 30 && Dice20 <= 39)
+                        else if (Dice20D1 + Dice20D2 > 32 && Dice20D1 + Dice20D2 <= 36)
                         {
-                            PriceDice = 0.6;
+                            PriceDice = 0.7;
                         }
-                        else if (Dice20 == 40)
+                        else if (Dice20D1 + Dice20D2 > 36 && Dice20D1 + Dice20D2 <= 39)
                         {
-                            PriceDice = 0.2;
+                            PriceDice = 0.3;
+                        }
+                        else if (Dice20D1 + Dice20D2 == 40)
+                        {
+                            PriceDice = 0.1;
                         }
                         else
                         {
                             PriceDice = 1;
                         }
+
+                        double RealPrice = (originalExp / 3 + originalStrength / 5 + originalStrengthFood / 2 + originalStrengthDrink / 2 + originalFeeling / 5) / 3
+                            + originalHealth + originalLikability * 10;
 
                         if (((RealPrice - 10) * PriceMultiIn) <= (PriceDice * BottomPrice) && (!(originalPrice < ((RealPrice - 10) * 0.7)) || ModOpItmes)
                             && (originalPrice > 0 || !NoMoNegPrice))
