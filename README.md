@@ -39,7 +39,7 @@ Roll2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> BottomPrice x 55
 27 ~ 32&nbsp;&nbsp;&nbsp;&nbsp;-> BottomPrice x 0.9   
 33 ~ 36&nbsp;&nbsp;&nbsp;&nbsp;-> BottomPrice x 0.7   
 37 ~ 39&nbsp;&nbsp;&nbsp;&nbsp;-> BottomPrice x 0.3   
-Roll40&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> BottomPrice x 0.1  
+Roll40&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> BottomPrice x 0.1  
   
 Food Price =   
 (OfficailPrice-10) x PriceMultiplier +  DiceMultify x BottomPrice  
