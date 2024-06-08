@@ -1,16 +1,19 @@
 My cute meow meow finally got the cheaper foods to eat now.  
+
   
+Program with ChatGPT and a cute innocent MeowMeow.
 This Mod is mainly aiming to Upgrade the Foods/gifts/items/etcs mods which is out of date.  
 So tuning down the Prices of Foods is the most thing what I want to do, but truly this is only the practice for my next mod VpetWorkUpdater.  
 So sit tight after this programming experience  
 I will explain “How to do” and “What to do” below.  
 
 1.How to use it?  
-  Find the "FoodPriceCompile.exe" file location and drag your mod under it than double click on FoodPriceCompile.exe to proceed your mod data.  
+  Find the "FoodPriceCompile.exe" file location and drag your mod under it then double click on FoodPriceCompile.exe to proceed your mod data.  
 !!WARNING!!  
-  【DO NOT drag】 "VpetFoodUpdater file" or "FoodPriceCompile.exe" into any 【"System File Location"】,【"..\Steam\steamapps\workshop\content\1920960"】  
+  【DO NOT drag】 "VpetFoodUpdater file" or "FoodPriceCompile.exe" into any 【"System File folder"】,【"..\Steam\steamapps\workshop\content\1920960"】  
   【DO BACKUP】 your Food/Item/ANY MOD.  
-  【DO drag】 your Food/Item MOD 【Inside】FoodPriceCompile.exe file Location. "..\FoodPriceCompile\bin\Debug\net8.0"  
+  【DO drag】 your Food/Item MOD 【Under】FoodPriceCompile.exe file Location. "..\FoodPriceCompile\bin\Debug\net8.0"  
+  (Surely you can drag the whole MOD folder into the folder where FoodPriceCompile.exe is, but please always backup your file before doing it)
   
 2.What functions does this Mod have?  
   
