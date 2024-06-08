@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="LinePutScript" Version="1.11.6" />
-    <PackageReference Include="LinePutScript.Localization.WPF" Version="1.0.7" />
-    <PackageReference Include="Parse" Version="3.0.2" />
-  </ItemGroup>
-
 </Project>
