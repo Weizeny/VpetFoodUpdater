@@ -4,7 +4,7 @@ My cute meow meow finally got the cheaper foods to eat now.
 Program with ChatGPT and a cute innocent MeowMeow.
 This Mod is mainly aiming to Upgrade the Foods/gifts/items/etcs mods which is out of date.  
 So tuning down the Prices of Foods is the most thing what I want to do, but truly this is only the practice for my next mod VpetWorkUpdater.  
-So please sit tight, after I got this programming experience. I can make it much more faster ASAP.  
+And please sit tight, after I got this programming experience. I can make it much more faster ASAP.  
 I will explain “How to do” and “What to do” below.  
 
 1.How to use it?  
